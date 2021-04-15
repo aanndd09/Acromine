@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC84BD33962E31F256376DF /* Pods_Acromine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD995F27F52CFF633045C0B1 /* Pods_Acromine.framework */; };
+		86433980489A97FD615CE7D5 /* Pods_AcromineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2232B69CF7E2B441DC914E70 /* Pods_AcromineTests.framework */; };
 		9D1BEDA826262C1C00032E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEDA726262C1C00032E41 /* AppDelegate.swift */; };
 		9D1BEDAA26262C1C00032E41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEDA926262C1C00032E41 /* SceneDelegate.swift */; };
 		9D1BEDAC26262C1C00032E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEDAB26262C1C00032E41 /* ViewController.swift */; };
@@ -15,6 +17,14 @@
 		9D1BEDB426262C1C00032E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1BEDB226262C1C00032E41 /* LaunchScreen.storyboard */; };
 		9D1BEDBF26262C1D00032E41 /* AcromineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEDBE26262C1D00032E41 /* AcromineTests.swift */; };
 		9D1BEDCA26262C1D00032E41 /* AcromineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEDC926262C1D00032E41 /* AcromineUITests.swift */; };
+		9D1BEE06262630FB00032E41 /* AYProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE05262630FB00032E41 /* AYProgressHUD.swift */; };
+		9D1BEE0E262631AE00032E41 /* Acromine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE0D262631AE00032E41 /* Acromine.swift */; };
+		9D1BEE162626350500032E41 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE152626350500032E41 /* BaseService.swift */; };
+		9D1BEE1B2626351500032E41 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE1A2626351500032E41 /* ServiceHelper.swift */; };
+		9D1BEE202626352500032E41 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE1F2626352500032E41 /* ServiceManager.swift */; };
+		9D1BEE372626FA3B00032E41 /* AcromineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BEE362626FA3B00032E41 /* AcromineViewModel.swift */; };
+		9D63C86426276BFD0081EBA4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D63C86326276BFD0081EBA4 /* CustomCell.swift */; };
+		C9A2620256C9E9844B120EE3 /* Pods_Acromine_AcromineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59388ED9189A89A4F9196C8C /* Pods_Acromine_AcromineUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2232B69CF7E2B441DC914E70 /* Pods_AcromineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcromineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2433501A0D4DF97114CF2E4E /* Pods-Acromine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine.release.xcconfig"; path = "Target Support Files/Pods-Acromine/Pods-Acromine.release.xcconfig"; sourceTree = "<group>"; };
+		3736BDB5A4B27F9A037BE95F /* Pods-Acromine-AcromineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine-AcromineUITests.debug.xcconfig"; path = "Target Support Files/Pods-Acromine-AcromineUITests/Pods-Acromine-AcromineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		528C942106C73538F2BD85F8 /* Pods-Acromine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine.debug.xcconfig"; path = "Target Support Files/Pods-Acromine/Pods-Acromine.debug.xcconfig"; sourceTree = "<group>"; };
+		59388ED9189A89A4F9196C8C /* Pods_Acromine_AcromineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acromine_AcromineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A5C98E0BBC67D7E323F39A /* Pods-AcromineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcromineTests.debug.xcconfig"; path = "Target Support Files/Pods-AcromineTests/Pods-AcromineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D1BEDA426262C1C00032E41 /* Acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1BEDA726262C1C00032E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D1BEDA926262C1C00032E41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,16 @@
 		9D1BEDC526262C1D00032E41 /* AcromineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcromineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1BEDC926262C1D00032E41 /* AcromineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineUITests.swift; sourceTree = "<group>"; };
 		9D1BEDCB26262C1D00032E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1BEE05262630FB00032E41 /* AYProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AYProgressHUD.swift; sourceTree = "<group>"; };
+		9D1BEE0D262631AE00032E41 /* Acromine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acromine.swift; sourceTree = "<group>"; };
+		9D1BEE152626350500032E41 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		9D1BEE1A2626351500032E41 /* ServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		9D1BEE1F2626352500032E41 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		9D1BEE362626FA3B00032E41 /* AcromineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineViewModel.swift; sourceTree = "<group>"; };
+		9D63C86326276BFD0081EBA4 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CD995F27F52CFF633045C0B1 /* Pods_Acromine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acromine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECCB4A16A7B69EF2CD1BBAE /* Pods-Acromine-AcromineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine-AcromineUITests.release.xcconfig"; path = "Target Support Files/Pods-Acromine-AcromineUITests/Pods-Acromine-AcromineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F536A96F2207FF1C4EF1FA0D /* Pods-AcromineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcromineTests.release.xcconfig"; path = "Target Support Files/Pods-AcromineTests/Pods-AcromineTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC84BD33962E31F256376DF /* Pods_Acromine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86433980489A97FD615CE7D5 /* Pods_AcromineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A2620256C9E9844B120EE3 /* Pods_Acromine_AcromineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E550E73D6FBEF8774ED8354 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				528C942106C73538F2BD85F8 /* Pods-Acromine.debug.xcconfig */,
+				2433501A0D4DF97114CF2E4E /* Pods-Acromine.release.xcconfig */,
+				3736BDB5A4B27F9A037BE95F /* Pods-Acromine-AcromineUITests.debug.xcconfig */,
+				DECCB4A16A7B69EF2CD1BBAE /* Pods-Acromine-AcromineUITests.release.xcconfig */,
+				87A5C98E0BBC67D7E323F39A /* Pods-AcromineTests.debug.xcconfig */,
+				F536A96F2207FF1C4EF1FA0D /* Pods-AcromineTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D1BED9B26262C1B00032E41 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				9D1BEDBD26262C1D00032E41 /* AcromineTests */,
 				9D1BEDC826262C1D00032E41 /* AcromineUITests */,
 				9D1BEDA526262C1C00032E41 /* Products */,
+				5E550E73D6FBEF8774ED8354 /* Pods */,
+				E64E9B843E32B4378FD6B84B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,11 @@
 		9D1BEDA626262C1C00032E41 /* Acromine */ = {
 			isa = PBXGroup;
 			children = (
+				9D1BEE002626302700032E41 /* Service */,
+				9D1BEE022626304800032E41 /* Utils */,
+				9D1BEE012626303300032E41 /* Models */,
+				9D1BEE032626305600032E41 /* Views */,
+				9D1BEE042626306D00032E41 /* ViewModels */,
 				9D1BEDA726262C1C00032E41 /* AppDelegate.swift */,
 				9D1BEDA926262C1C00032E41 /* SceneDelegate.swift */,
 				9D1BEDAB26262C1C00032E41 /* ViewController.swift */,
@@ -128,6 +177,58 @@
 			path = AcromineUITests;
 			sourceTree = "<group>";
 		};
+		9D1BEE002626302700032E41 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BEE152626350500032E41 /* BaseService.swift */,
+				9D1BEE1A2626351500032E41 /* ServiceHelper.swift */,
+				9D1BEE1F2626352500032E41 /* ServiceManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9D1BEE012626303300032E41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BEE0D262631AE00032E41 /* Acromine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D1BEE022626304800032E41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BEE05262630FB00032E41 /* AYProgressHUD.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9D1BEE032626305600032E41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D63C86326276BFD0081EBA4 /* CustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D1BEE042626306D00032E41 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BEE362626FA3B00032E41 /* AcromineViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E64E9B843E32B4378FD6B84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD995F27F52CFF633045C0B1 /* Pods_Acromine.framework */,
+				59388ED9189A89A4F9196C8C /* Pods_Acromine_AcromineUITests.framework */,
+				2232B69CF7E2B441DC914E70 /* Pods_AcromineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1BEDCE26262C1D00032E41 /* Build configuration list for PBXNativeTarget "Acromine" */;
 			buildPhases = (
+				9A244A39B1D630C9FA29E133 /* [CP] Check Pods Manifest.lock */,
 				9D1BEDA026262C1B00032E41 /* Sources */,
 				9D1BEDA126262C1B00032E41 /* Frameworks */,
 				9D1BEDA226262C1B00032E41 /* Resources */,
+				4E8D50E566250CA8938F0494 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1BEDD126262C1D00032E41 /* Build configuration list for PBXNativeTarget "AcromineTests" */;
 			buildPhases = (
+				77AD22A56541B563383677A3 /* [CP] Check Pods Manifest.lock */,
 				9D1BEDB626262C1D00032E41 /* Sources */,
 				9D1BEDB726262C1D00032E41 /* Frameworks */,
 				9D1BEDB826262C1D00032E41 /* Resources */,
@@ -170,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D1BEDD426262C1D00032E41 /* Build configuration list for PBXNativeTarget "AcromineUITests" */;
 			buildPhases = (
+				89E0EF8F6EF9828559E8FCCC /* [CP] Check Pods Manifest.lock */,
 				9D1BEDC126262C1D00032E41 /* Sources */,
 				9D1BEDC226262C1D00032E41 /* Frameworks */,
 				9D1BEDC326262C1D00032E41 /* Resources */,
+				AF044E02A5DA88DB28C307D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +359,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E8D50E566250CA8938F0494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acromine/Pods-Acromine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acromine/Pods-Acromine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Acromine/Pods-Acromine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AD22A56541B563383677A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcromineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E0EF8F6EF9828559E8FCCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acromine-AcromineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A244A39B1D630C9FA29E133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acromine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF044E02A5DA88DB28C307D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acromine-AcromineUITests/Pods-Acromine-AcromineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Acromine-AcromineUITests/Pods-Acromine-AcromineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Acromine-AcromineUITests/Pods-Acromine-AcromineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D1BEDA026262C1B00032E41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1BEE372626FA3B00032E41 /* AcromineViewModel.swift in Sources */,
 				9D1BEDAC26262C1C00032E41 /* ViewController.swift in Sources */,
+				9D63C86426276BFD0081EBA4 /* CustomCell.swift in Sources */,
+				9D1BEE1B2626351500032E41 /* ServiceHelper.swift in Sources */,
+				9D1BEE0E262631AE00032E41 /* Acromine.swift in Sources */,
+				9D1BEE202626352500032E41 /* ServiceManager.swift in Sources */,
+				9D1BEE162626350500032E41 /* BaseService.swift in Sources */,
 				9D1BEDA826262C1C00032E41 /* AppDelegate.swift in Sources */,
+				9D1BEE06262630FB00032E41 /* AYProgressHUD.swift in Sources */,
 				9D1BEDAA26262C1C00032E41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +649,7 @@
 		};
 		9D1BEDCF26262C1D00032E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528C942106C73538F2BD85F8 /* Pods-Acromine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +669,7 @@
 		};
 		9D1BEDD026262C1D00032E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2433501A0D4DF97114CF2E4E /* Pods-Acromine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +689,7 @@
 		};
 		9D1BEDD226262C1D00032E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A5C98E0BBC67D7E323F39A /* Pods-AcromineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +712,7 @@
 		};
 		9D1BEDD326262C1D00032E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F536A96F2207FF1C4EF1FA0D /* Pods-AcromineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +735,7 @@
 		};
 		9D1BEDD526262C1D00032E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3736BDB5A4B27F9A037BE95F /* Pods-Acromine-AcromineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +756,7 @@
 		};
 		9D1BEDD626262C1D00032E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECCB4A16A7B69EF2CD1BBAE /* Pods-Acromine-AcromineUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
